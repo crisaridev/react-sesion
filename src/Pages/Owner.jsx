@@ -1,4 +1,5 @@
 import Card from "../components/Card"
+import Footer from "../components/Footer";
 import MovieList from "../components/MovieList";
 import { useState, useEffect } from "react";
 export default function Owner(){
@@ -42,6 +43,7 @@ export default function Owner(){
                   })}
                 </ul>
     </div>
+    <Footer showOpenMessage={false}/>
 
     </>
   )
