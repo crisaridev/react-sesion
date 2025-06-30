@@ -46,7 +46,7 @@ export default function Card (){
     margin: "0 auto",
     borderRadius: "10px",
     marginTop: "30px",
-    maxWidth: "600px"
+    minWidth: "500px"
 
   }
   const emailStyle = {
